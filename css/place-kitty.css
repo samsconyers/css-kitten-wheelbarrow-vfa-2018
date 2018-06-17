@@ -21,12 +21,20 @@
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
 
 /*__write_selector_here__*/ 
+
+
 #basket kitty-3 {
   position: absolute;
   z-index: 5;
   top: 291px;
   left: 319px;
 }
+
+<div id="basket">
+      <img src="images/kitty-3.png" alt="kitty 3">
+    </div>
+    
+    
 
 /* Select the image based on it being a sibling that follows immediately after the element with an id of ball (using adjacent sibling selector) */
 
